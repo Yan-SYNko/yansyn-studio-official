@@ -20,13 +20,13 @@ YANSYN-E2EE 是一款端到端加密（End-to-End Encryption）工具，用于�
 ## 加密方案
 
 - 对称加密：AES-256-CBC
-- 非对称加密：RSA-2048（PKCS#1 Padding）
+- 非对称加密：RSA-2048（OAEP-SHA256 Padding）
 - 密钥派生：PBKDF2WithHmacSHA256（100000 次迭代）
 - 签名算法：SHA256withRSA
 
 ## 运行环境
 
-- 需要 Java 运行环境（JRE 8 或更高版本）
+- 需要 Java 运行环境（JRE 25 或更高版本，随着软件迭代而更新）
 - 支持 Windows / macOS / Linux
 
 ## 下载
